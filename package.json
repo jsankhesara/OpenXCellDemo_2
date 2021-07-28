@@ -1,0 +1,31 @@
+{
+  "name": "openxcelldemo_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsankhesara/OpenXCellDemo_2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsankhesara/OpenXCellDemo_2/issues"
+  },
+  "homepage": "https://github.com/jsankhesara/OpenXCellDemo_2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "moment": "^2.29.1",
+    "monc": "^0.1.2",
+    "mongoose": "^5.13.3",
+    "mongoose-autopopulate": "^0.14.0",
+    "multer": "^1.4.2",
+    "payload-validator": "^1.0.4",
+    "sharp": "^0.28.3"
+  }
+}
