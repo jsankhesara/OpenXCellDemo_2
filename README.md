@@ -1,4 +1,4 @@
-# YudizDemo
+# OpenXCellDemoo
 gitPath = git clone https://github.com/jsankhesara/OpenXCellDemo_2.git
 Install package = npm install
 Start Node Js Application = nodemon

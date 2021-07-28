@@ -89,9 +89,9 @@ exports.getPropertyList = async function (req, res) {
             "$match": {
                 "$or": [
                     { "area": searchText },
-                    { "price": searchText},
-                    { "bed_room": searchText },
-                    { "bath": searchText },
+                    { "price": req.body.searchText},
+                    { "bed_room": req.body.searchText },
+                    { "bath": req.body.searchText },
                 ]
             },
         },
